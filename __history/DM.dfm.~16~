@@ -1,0 +1,32 @@
+object DM1: TDM1
+  OldCreateOrder = False
+  Height = 430
+  Width = 748
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=consulta'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 160
+    Top = 80
+  end
+  object queryConsulta: TFDQuery
+    Active = True
+    Connection = conexao
+    SQL.Strings = (
+      'SELECT * FROM CONSULTA_DADOS')
+    Left = 288
+    Top = 80
+    ParamData = <
+      item
+        Name = 'pConsulta'
+      end>
+  end
+  object DSConsulta: TDataSource
+    DataSet = queryConsulta
+    Left = 424
+    Top = 80
+  end
+end

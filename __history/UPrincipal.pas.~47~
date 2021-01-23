@@ -1,0 +1,58 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB,
+  Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm9 = class(TForm)
+    Panel1: TPanel;
+    StaticText1: TStaticText;
+    opcoes: TRadioGroup;
+    label_consulta: TLabel;
+    texto_consulta: TEdit;
+    Button1: TButton;
+    DBGrid1: TDBGrid;
+    procedure opcoesClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form9: TForm9;
+
+implementation
+
+{$R *.dfm}
+
+uses DM;
+
+procedure TForm9.Button1Click(Sender: TObject);
+begin
+  DM1.queryConsulta.Close;
+  DM1.queryConsulta.SQL.Clear;
+  DM1.queryConsulta.SQL.Add('SELECT * FROM consulta_dados WHERE nome=: pConsulta');
+  DM1.queryConsulta.ParamByName('pConsulta').AsString :=  texto_consulta.Text;
+  DM1.queryConsulta.Open;
+end;
+
+procedure TForm9.opcoesClick(Sender: TObject);
+begin
+  if (opcoes.ItemIndex=0) then
+    begin
+      label_consulta.Caption:='Digite o nome';
+    end;
+  if (opcoes.ItemIndex=1) then
+    begin
+      label_consulta.Caption:= 'Digite o bairro';
+    end;
+
+end;
+
+end.

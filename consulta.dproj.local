@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/20 23:45:26.000.891,=C:\Users\m_v_s\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2021/01/22 22:52:38.000.778,=C:\Users\m_v_s\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2021/01/22 22:52:55.000.390,C:\Users\m_v_s\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit9.pas=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\UPrincipal.pas</Transaction>
+    <Transaction>2021/01/22 22:52:55.000.390,C:\Users\m_v_s\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit9.dfm=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\UPrincipal.dfm</Transaction>
+    <Transaction>2021/01/22 22:53:10.000.070,C:\Users\m_v_s\OneDrive\Documentos\Embarcadero\Studio\Projects\Project7.dproj=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\consulta.dproj</Transaction>
+    <Transaction>2021/01/22 23:07:36.000.470,=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/22 23:07:41.000.160,C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.pas=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\DM.pas</Transaction>
+    <Transaction>2021/01/22 23:07:41.000.160,C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.dfm=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\DM.dfm</Transaction>
+    <Transaction>2021/01/23 09:57:51.000.411,C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\DM.pas=</Transaction>
+    <Transaction>2021/01/23 09:57:58.000.320,=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/23 10:01:00.000.461,C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\DM.dfm=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.dfm</Transaction>
+    <Transaction>2021/01/23 10:01:00.000.461,C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\DM.pas=C:\Users\m_v_s\OneDrive\Área de Trabalho\Consulta_Cliente_Delphi\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
